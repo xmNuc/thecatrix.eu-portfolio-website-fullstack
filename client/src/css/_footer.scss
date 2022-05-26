@@ -1,0 +1,132 @@
+.footer {
+  position: relative;
+  top: 0;
+  left: 0;
+  padding: 80px 0;
+  color: rgb(255, 255, 255);
+  font-family: 'Open Sans', sans-serif;
+}
+.footer-bg {
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  background-size: cover;
+  padding-bottom: 50px;
+}
+
+.footer .footer-img {
+  position: relative;
+  transition: 0.5s;
+}
+.footer .footer-img img {
+  width: 100%;
+  max-width: 100%;
+  border: 2px solid rgba(150, 223, 252, 0.247);
+  position: relative;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.58);
+  box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.58);
+}
+.footer .footer-img::before {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+  content: '';
+  border-left: 1px solid #4db0c2;
+  border-top: 1px solid #4db0c2;
+  transition: 0.5s;
+}
+.footer .footer-img::after {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+  content: '';
+  border-right: 1px solid #4db0c2;
+  border-bottom: 1px solid #4db0c2;
+  transition: 0.5s;
+}
+.footer .footer-img:hover {
+  transform: scale(1.03);
+}
+.footer .footer-img:hover::before {
+  left: 10px;
+  top: 10px;
+}
+.footer .footer-img:hover::after {
+  right: 10px;
+  bottom: 10px;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.footer li {
+  padding: 10px;
+}
+.footer li:hover {
+  padding: 10px;
+  color: #4db0c2;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
+  transition: 0.1s;
+}
+.footer a:hover {
+  color: #4db0c2;
+}
+.contact-area {
+  margin: 5px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.3px);
+  -webkit-backdrop-filter: blur(5.3px);
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  transition: 0.3s;
+}
+.contact-area:hover {
+  background: rgba(255, 255, 255, 0.19);
+  border: 1px solid rgb(255, 255, 255);
+}
+.contact-area h5,
+.contact-area h6 {
+  font-weight: bold;
+}
+.contact-area h6 a {
+  font-weight: normal;
+}
+.copy-right {
+  margin-top: 60px;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .footer-img {
+    display: none;
+  }
+
+  .contact-area h5,
+  .contact-area h6 {
+    font-size: x-large;
+  }
+}
+@media (max-width: 600px) {
+  .footer ul {
+    align-items: center;
+    flex-direction: column;
+  }
+}

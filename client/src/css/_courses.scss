@@ -1,0 +1,113 @@
+// ----------------------------------------------
+// Courses
+// ----------------------------------------------
+.courses {
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  font-family: 'Open Sans', sans-serif;
+}
+.courses a {
+  text-decoration: none;
+}
+
+.courses .icon-box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+  border: 1px solid rgb(179, 250, 255);
+  -webkit-box-shadow: -8px 8px 24px -11px rgba(66, 68, 90, 1);
+  -moz-box-shadow: -8px 8px 24px -11px rgba(66, 68, 90, 1);
+  box-shadow: -8px 8px 24px -11px rgba(66, 68, 90, 1);
+}
+.courses .icon-box-l {
+  transform: translateX(-100vw);
+  transition: all 0.4s ease-in-out;
+}
+.courses .icon-box-r {
+  transform: translateX(200vw);
+  transition: all 0.5s ease-in-out;
+}
+.courses .icon-box-l.active {
+  transform: translateX(0vw);
+}
+.courses .icon-box-r.active {
+  transform: translateX(0vw);
+}
+
+.courses .course_picture {
+  margin: 0 auto 20px auto;
+  padding-top: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.courses .course_picture img {
+  width: 80px;
+  height: 80px;
+  line-height: 1;
+  color: #60a5ffc5;
+}
+.courses .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.courses .title a {
+  color: #111;
+  transition: 0.3s;
+}
+.courses .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+.courses .icon-box:hover {
+  border-color: #4db0c2;
+}
+.courses .icon-box:hover .title a {
+  color: #4db0c2;
+}
+
+.course-title {
+  text-align: center;
+  padding: 30px 0;
+  position: relative;
+}
+.course-title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color: #000000;
+  position: relative;
+  z-index: 2;
+}
+.course-title span {
+  position: absolute;
+  top: 35px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  font-weight: 700;
+  font-size: 52px;
+  color: #bbb9b9;
+  text-transform: uppercase;
+  line-height: 0;
+}
+.course-title p {
+  margin-bottom: 0;
+  position: relative;
+  z-index: 2;
+  font-size: 1.2rem;
+}
+@media (max-width: 575px) {
+  .course-title h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .course-title span {
+    font-size: 38px;
+  }
+}

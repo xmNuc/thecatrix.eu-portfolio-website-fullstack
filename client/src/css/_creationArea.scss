@@ -1,0 +1,28 @@
+.not-logged {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/hero-bg.jpg') top center;
+  background-size: cover;
+  padding: 10px;
+}
+
+.not-logged-info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.not-logged-info a {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+  transition: 0.3;
+}
+.not-logged-info a:hover {
+  color: #81c7d8;
+}

@@ -1,0 +1,44 @@
+#auth {
+  width: 100%;
+  height: 100vh;
+  background: url('../img/hero-bg.jpg') top center;
+  background-size: cover;
+  padding: 10px;
+}
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+}
+.sign-form {
+  background-color: rgba(122, 122, 122, 0.8);
+  color: white;
+  width: 560px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 15px;
+  -webkit-box-shadow: 8px 7px 24px 0px rgb(43, 42, 42);
+  -moz-box-shadow: 8px 7px 24px 0px rgb(43, 42, 42);
+  box-shadow: 8px 7px 24px 0px rgb(43, 42, 42);
+}
+.input-form {
+  width: 50em;
+  margin: 30px;
+}
+.input-grup {
+  margin: 10px 0 10px 0;
+}
+.sign-btn {
+  display: block;
+  padding: 12px;
+  margin: 0 auto;
+  width: 30%;
+  margin-bottom: 10px;
+}
+
+.googleButton img {
+  margin: 0;
+  width: 25px;
+  height: 25px;
+}
