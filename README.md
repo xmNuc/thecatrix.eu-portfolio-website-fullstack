@@ -25,7 +25,8 @@ npm start
 npm run build
 <br>
 ## Tech Stack
-**Client:**  React, Redux, React-bootstrap, React-router, React-file-base64, and more.<br>
+**Client:** "react", "redux", "axios", "jwt-decode", "react-bootstrap", "react-dom", "react-file-base64", "react-google-login", "react-intersection-observer", "react-player", "react-redux", "react-router-dom", "react-router-hash-link", "react-scripts", "redux", "redux-thunk", "web-vitals".
+<br>
 **Server:** Express.js, Node.js, Dotenv, Jsonwebtoken, MongoDb as a dataBase.<br>
 ## Screenshots
 Comming soon
