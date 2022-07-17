@@ -27,6 +27,8 @@ npm run build
 ## Tech Stack
 **Client:**  React, Redux, React-bootstrap, React-router, React-file-base64, and more.<br>
 **Server:** Express.js, Node.js, Dotenv, Jsonwebtoken, MongoDb as a dataBase.<br>
+## Screenshots
+Comming soon
 
 ## Author
 Jakub D.
