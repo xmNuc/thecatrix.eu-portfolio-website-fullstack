@@ -29,7 +29,7 @@ npm run build
 <br>
 **Server:** Express.js, Node.js, Dotenv, Jsonwebtoken, MongoDb as a dataBase.<br>
 ## Screenshots
-Comming soon
+<img src="https://raw.githubusercontent.com/xmNuc/thecatrix.eu-portfolio-website-fullstack/master/portfolio.jpg" alt="Web portfilio app screanshot" />
 
 ## Author
 Jakub D.
