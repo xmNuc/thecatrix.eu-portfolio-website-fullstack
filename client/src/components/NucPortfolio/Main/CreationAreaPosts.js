@@ -17,7 +17,7 @@ export const CreationAreaPosts = () => {
         <div className="project-title">
           <span>Projects</span>
           <h2>Projects</h2>
-          <p>Few programing projects whitch was made by me</p>
+          <p>Few programing projects which was made by me</p>
         </div>
         <ShowPosts setCurrentId={setCurrentId} />
       </section>
